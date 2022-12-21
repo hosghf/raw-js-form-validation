@@ -1,0 +1,38 @@
+.form {
+  width: 40%;
+  margin: 30px auto;
+  padding: 15px 0;
+  text-align: center;
+  background-color: rgba(20, 30, 20, .4);
+  border-radius: 5px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  margin: 15px auto;
+  font-size: 18px;
+}
+
+.form-row .error-text {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+  display: none;
+}
+
+.form-row .submit {
+  padding: 5px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.d-block {
+  display: block;
+}
